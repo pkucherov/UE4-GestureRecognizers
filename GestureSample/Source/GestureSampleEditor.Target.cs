@@ -5,21 +5,10 @@ using System.Collections.Generic;
 
 public class GestureSampleEditorTarget : TargetRules
 {
-	public GestureSampleEditorTarget(TargetInfo Target)
+	public GestureSampleEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-	}
-
-	//
-	// TargetRules interface.
-	//
-
-	public override void SetupBinaries(
-		TargetInfo Target,
-		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
-		ref List<string> OutExtraModuleNames
-		)
-	{
-		OutExtraModuleNames.AddRange( new string[] { "GestureSample" } );
+        	DefaultBuildSettings = BuildSettingsVersion.V2;
+		ExtraModuleNames.AddRange( new string[] { "GestureSample" } );
 	}
 }

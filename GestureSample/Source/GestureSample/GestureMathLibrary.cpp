@@ -1,7 +1,8 @@
 // 2014 MartianCraft, LLC, See eader file for license & copyright notice
 
-#include "GestureSample.h"
 #include "GestureMathLibrary.h"
+#include "GestureSample.h"
+
 
 float UGestureMathLibrary::AngleBetweenLines(const FVector2D& Line1Start, const FVector2D& Line1End, const FVector2D& Line2Start, const FVector2D& Line2End)
 {

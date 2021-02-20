@@ -1,7 +1,8 @@
 // 2014 MartianCraft, LLC, See eader file for license & copyright notice
 
-#include "GestureSample.h"
 #include "TapGestureRecognizer.h"
+#include "GestureSample.h"
+
 
 UTapGestureRecognizer::UTapGestureRecognizer() 	: Super()
 , MinimumTimeForTap(0.f)

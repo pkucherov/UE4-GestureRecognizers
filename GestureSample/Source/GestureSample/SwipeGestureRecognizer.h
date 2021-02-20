@@ -169,7 +169,7 @@ protected:
 	// Overrides
 	virtual void TouchEnded(int32 FingerIndex) override;
 	virtual void ResetGesture() override;
-	virtual void ReceiveTick(float DeltaTime) override;
+	void ReceiveTick(float DeltaTime);
 	
 	// Non UFUNCTION
 	virtual ESwipeType SwipeDetectedWithFinger(int32 Index) const;

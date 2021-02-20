@@ -1,8 +1,8 @@
 // 2014 MartianCraft, LLC, See eader file for license & copyright notice
 
-
-#include "GestureSample.h"
 #include "PinchRotateGestureRecognizer.h"
+#include "GestureSample.h"
+
 
 UPinchRotateGestureRecognizer::UPinchRotateGestureRecognizer() : Super ()
 , MinimumAngleChangeForRotate(1.f)

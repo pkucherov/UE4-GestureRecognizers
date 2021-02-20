@@ -148,7 +148,7 @@ public:
 
 	UGestureRecognizerComponent();
 	virtual void InitializeComponent() override;
-	virtual void ReceiveTick(float DeltaTime) override;
+	void ReceiveTick(float DeltaTime);
 	
 	// ===========================================================================
 	// Delegates

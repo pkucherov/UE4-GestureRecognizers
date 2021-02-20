@@ -1,7 +1,8 @@
 // 2014 MartianCraft, LLC, See eader file for license & copyright notice
 
-#include "GestureSample.h"
 #include "SwipeGestureRecognizer.h"
+#include "GestureSample.h"
+
 
 USwipeGestureRecognizer::USwipeGestureRecognizer() 	: Super()
 {

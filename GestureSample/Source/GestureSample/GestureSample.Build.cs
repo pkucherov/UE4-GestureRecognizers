@@ -4,8 +4,9 @@ using UnrealBuildTool;
 
 public class GestureSample : ModuleRules
 {
-	public GestureSample(TargetInfo Target)
+	public GestureSample(ReadOnlyTargetRules Target) : base(Target)
 	{
+		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
@@ -24,3 +25,5 @@ public class GestureSample : ModuleRules
 		// }
 	}
 }
+
+

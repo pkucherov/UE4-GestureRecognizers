@@ -1,7 +1,8 @@
 // 2014 MartianCraft, LLC, See eader file for license & copyright notice
 
-#include "GestureSample.h"
 #include "GestureRecognizerComponent.h"
+#include "GestureSample.h"
+
 
 
 // Sets default values for this component's properties

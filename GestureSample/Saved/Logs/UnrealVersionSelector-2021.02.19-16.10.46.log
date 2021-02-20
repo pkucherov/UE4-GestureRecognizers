@@ -1,0 +1,61 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK using manually installed SDK -23
+IOSPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK using manually installed SDK v17_clang-10.0.1-centos7
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVisualStudioInstallations: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise (Product=Microsoft.VisualStudio.Product.Enterprise, Version=16.8.31005.135)
+WindowsPlatform.FindVisualStudioToolChains: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333 (Version=14.28.29337)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 8.1 SDK at C:\Program Files (x86)\Windows Kits\8.1
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.10240.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.14393.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.14393.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.15063.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.15063.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.16299.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.16299.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.17134.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.17134.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.18362.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.18362.0 at C:\Program Files (x86)\Windows Kits\10
+DynamicCompilation.RequiresCompilation: Compiling F:\UnrealProjects2\UE4-GestureRecognizers\GestureSample\Intermediate\Build\BuildRules\GestureSampleModuleRules.dll: Assembly does not exist
+DynamicCompilation.CompileAssembly: While compiling F:\UnrealProjects2\UE4-GestureRecognizers\GestureSample\Intermediate\Build\BuildRules\GestureSampleModuleRules.dll:
+DynamicCompilation.CompileAssembly: f:\UnrealProjects2\UE4-GestureRecognizers\GestureSample\Source\GestureSample\GestureSample.Build.cs(7,9) : error CS1729: 'UnrealBuildTool.ModuleRules' does not contain a constructor that takes 0 arguments
+UnrealBuildTool.Main: ERROR: Unable to compile source files.
+UnrealBuildTool.Main: BuildException: Unable to compile source files.
+UnrealBuildTool.Main:    at UnrealBuildTool.DynamicCompilation.CompileAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean TreatWarningsAsErrors) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:line 383
+UnrealBuildTool.Main:    at UnrealBuildTool.DynamicCompilation.CompileAndLoadAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean DoNotCompile, Boolean TreatWarningsAsErrors) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:line 450
+UnrealBuildTool.Main:    at UnrealBuildTool.RulesAssembly..ctor(RulesScope Scope, List`1 BaseDirs, IReadOnlyList`1 Plugins, Dictionary`2 ModuleFileToContext, List`1 TargetFiles, FileReference AssemblyFileName, Boolean bContainsEngineModules, Nullable`1 DefaultBuildSettings, Boolean bReadOnly, Boolean bSkipCompile, RulesAssembly Parent) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:line 110
+UnrealBuildTool.Main:    at UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:line 581
+UnrealBuildTool.Main:    at UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, String[] Arguments, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 2313
+UnrealBuildTool.Main:    at UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 753
+UnrealBuildTool.Main:    at UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:line 204
+UnrealBuildTool.Main:    at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 550
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.037) <unknown>
+Timeline.Print: [ 0.037](+0.095) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.132](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.132](+0.065) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.133          [ 0.000](+0.031) Initializing InstalledPlatformInfo
+Timeline.Print:   0.165          [ 0.032](+0.000) Querying types
+Timeline.Print:   0.167          [ 0.034](+0.001) MacPlatformFactory
+Timeline.Print:   0.168          [ 0.035](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.169          [ 0.036](+0.019) AndroidPlatformFactory
+Timeline.Print:   0.188          [ 0.055](+0.000) HoloLensPlatformFactory
+Timeline.Print:   0.188          [ 0.056](+0.005) IOSPlatformFactory
+Timeline.Print:   0.193          [ 0.061](+0.003) LinuxPlatformFactory
+Timeline.Print:   0.197          [ 0.064](+0.000) LuminPlatformFactory
+Timeline.Print:   0.198          [ 0.065](+0.000) WindowsPlatformFactory
+Timeline.Print: [ 0.198](+0.438) <unknown>
+Timeline.Print: [ 0.637](+0.002) Finding engine modules
+Timeline.Print: [ 0.639](+0.003) Finding plugin modules
+Timeline.Print: [ 0.642](+0.083) <unknown>
+Timeline.Print: [ 0.726](+0.000) Finding program modules
+Timeline.Print: [ 0.726](+0.000) Finding program targets
+Timeline.Print: [ 0.726](+0.084) <unknown>
+Timeline.Print: [ 0.810](+0.093) Compiling rules assembly (GestureSampleModuleRules.dll)
+Timeline.Print: [ 0.914](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 0.917]

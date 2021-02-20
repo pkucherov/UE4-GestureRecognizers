@@ -1,6 +1,7 @@
 // 2014 MartianCraft, LLC, See eader file for license & copyright notice
-#include "GestureSample.h"
 #include "PanGestureRecognizer.h"
+#include "GestureSample.h"
+
 
 UPanGestureRecognizer::UPanGestureRecognizer() 	: Super()
 , MinimumTouchCount(1)
